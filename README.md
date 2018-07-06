@@ -10,6 +10,19 @@ Hellfire is a parallelised DNS resolver. It is written in Go and for the
 purpose of generating input lists to [PATHspider](https://pathspider.net/),
 though may be useful for other applications.
 
+
+Installation
+------------
+Debian 10 or above:
+
+```
+$ apt install hellfire
+```
+Go:
+
+```
+$ go install pathspider.net/hellfire
+```
 Input and Output Formats
 ------------------------
 
